@@ -4,7 +4,7 @@ Este projeto integra o Módulo 2 da jornada de Engenharia de Dados. O objetivo p
 
 ---
 ``
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## Tecnologias e Ferramentas Utilizadas
 
 - **Linguagem:** Python
 - **Engine de Processamento Distribuído:** Apache Spark (`pyspark.sql`)
@@ -14,7 +14,7 @@ Este projeto integra o Módulo 2 da jornada de Engenharia de Dados. O objetivo p
 
 ---
 
-## 🚀 Arquitetura e Regras de Negócio Implementadas
+## Arquitetura e Regras de Negócio Implementadas
 
 1. **Ingestão Distribuída:** Criação de um PySpark DataFrame contendo dados sintéticos de transações bancárias (`PIX`, `TED`, `BOLETO`, `CARTAO`).
 2. **Filtragem de Relevância:** Descarte automático de transações abaixo de R$ 1.000,00 (`filter`).
@@ -26,7 +26,7 @@ Este projeto integra o Módulo 2 da jornada de Engenharia de Dados. O objetivo p
 
 ---
 
-## 💻 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 processamento-bigdata-pyspark/
