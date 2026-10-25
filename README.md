@@ -2,27 +2,25 @@
 
 ---
 
-## Visao Geral
+## Visão Geral
 
-Este repositorio centraliza projetos e pipelines de Engenharia de Dados desenvolvidos no ecossistema Databricks, PySpark e Delta Lake. O objetivo e demonstrar arquiteturas escalaveis, processamento distribuido e aplicacao de regras de negocio complexas em cenarios reais de mercado.
+Este repositório centraliza projetos e pipelines de Engenharia de Dados desenvolvidos no ecossistema Databricks, PySpark e Delta Lake. O objetivo é demonstrar arquiteturas escaláveis, processamento distribuído e aplicação de regras de negócio complexas em cenários reais de mercado.
 
 ---
 
-## Estrutura do Repositorio
+## Estrutura do Repositório
 
-* 01_fundamentos_pyspark/
-  Pipeline inicial para fundamentacao de transformacoes, selecao de colunas e operacoes basicas de DataFrame com PySpark no Databricks.
+- **`01_fundamentos_pyspark/`**  
+  Pipeline inicial para fundamentação de transformações, seleção de colunas e operações básicas de DataFrame com PySpark no Databricks.
 
-* 02_lakehouse_saude_lesao_medular_delta/
-  Pipeline de Big Data para 500.000 atendimentos de Saude (Lesao Medular / Cauda Equina), integrando regras de urgencia cirurgica, Window Functions e persistencia otimizada em Delta Lake.
+- **`02_lakehouse_saude_lesao_medular_delta/`**  
+  Pipeline de Big Data para 500.000 atendimentos de Saúde (Lesão Medular / Cauda Equina), integrando regras de urgência cirúrgica, Window Functions e persistência otimizada em Delta Lake.
 
 ---
 
 ## Tecnologias e Arquitetura
 
-* Processamento Distribuido: Apache Spark / PySpark
-* Plataforma: Databricks Serverless Compute
-* Armazenamento Transactional: Delta Lake (ACID, Parquet, Partitioning)
-* Versionamento e Padronizacao: Git com Conventional Commits
-
-
+- **Processamento Distribuído:** Apache Spark / PySpark
+- **Plataforma:** Databricks Serverless Compute
+- **Armazenamento Transacional:** Delta Lake (ACID, Parquet, Partitioning)
+- **Versionamento e Padronização:** Git com Conventional Commits
